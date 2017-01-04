@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60E30B51E1DA11E00B9CD9E /* BLStaticCaptionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A60E30B41E1DA11E00B9CD9E /* BLStaticCaptionBar.m */; };
 		A6F356431E10F31200ABA458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F356421E10F31200ABA458 /* main.m */; };
 		A6F356461E10F31200ABA458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F356451E10F31200ABA458 /* AppDelegate.m */; };
 		A6F356491E10F31200ABA458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F356481E10F31200ABA458 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A60E30B31E1DA11E00B9CD9E /* BLStaticCaptionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLStaticCaptionBar.h; sourceTree = "<group>"; };
+		A60E30B41E1DA11E00B9CD9E /* BLStaticCaptionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLStaticCaptionBar.m; sourceTree = "<group>"; };
 		A6F3563E1E10F31200ABA458 /* BLCaptionBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLCaptionBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F356421E10F31200ABA458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6F356441E10F31200ABA458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				A6F356411E10F31200ABA458 /* Supporting Files */,
 				A6F356741E10F33600ABA458 /* BLCaptionBar.h */,
 				A6F356751E10F33600ABA458 /* BLCaptionBar.m */,
+				A60E30B31E1DA11E00B9CD9E /* BLStaticCaptionBar.h */,
+				A60E30B41E1DA11E00B9CD9E /* BLStaticCaptionBar.m */,
 			);
 			path = BLCaptionBar;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				A6F356491E10F31200ABA458 /* ViewController.m in Sources */,
 				A6F356461E10F31200ABA458 /* AppDelegate.m in Sources */,
 				A6F356761E10F33600ABA458 /* BLCaptionBar.m in Sources */,
+				A60E30B51E1DA11E00B9CD9E /* BLStaticCaptionBar.m in Sources */,
 				A6F356431E10F31200ABA458 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +524,7 @@
 				A6F3566D1E10F31300ABA458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6F3566E1E10F31300ABA458 /* Build configuration list for PBXNativeTarget "BLCaptionBarTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				A6F356701E10F31300ABA458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6F356711E10F31300ABA458 /* Build configuration list for PBXNativeTarget "BLCaptionBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				A6F356731E10F31300ABA458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

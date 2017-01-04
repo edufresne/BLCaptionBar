@@ -154,9 +154,7 @@
         self.captionLocationFraction = self.center.y/self.superview.frame.size.height;
     }
 }
--(void)orientationDidChange{
-    
-    NSLog(@"Oridentation Did change");
+-(void)orientationDidChange{    
     if (self.superview != nil){
         self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.superview.frame.size.width, self.frame.size.height);
         if (self.text.length != 0){
