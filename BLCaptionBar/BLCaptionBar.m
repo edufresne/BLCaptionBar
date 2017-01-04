@@ -10,7 +10,6 @@
 #import "BLCaptionBar.h"
 
 @interface BLCaptionBar ()
-@property (assign, nonatomic) CGFloat captionLocationFraction;
 @property (strong, nonatomic) UIPanGestureRecognizer *gesture;
 @end
 
@@ -26,6 +25,7 @@
         _isShowing = NO;
         self.userInteractionEnabled = NO;
         self.delegate = self;
+        self.text = @"";
         self.returnKeyType = UIReturnKeyDone;
         self.scrollEnabled = NO;
         self.showsVerticalScrollIndicator = NO;
